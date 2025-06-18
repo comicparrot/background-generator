@@ -1,0 +1,99 @@
+body{
+	font: 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+	/*background: linear-gradient(to right, red, yellow);*/
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+}
+
+h1{
+	font: 600 clamp(1rem,3.5vw,3.5rem) 'Raleway', sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	width: 100%;
+}
+
+h3{
+	font: 900 1em 'Raleway',sans-serif;
+	color: rgba(0, 0, 0, .5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: .01em;
+}
+
+.randomButton{
+	font: 600 1.2em 'Raleway', sans-serif;
+	padding: 5px 10px;
+	width: fit-content;
+	margin: auto;
+}
+
+.directionBtn{
+	font: 600 1.2em 'Raleway', sans-serif;
+	padding: 5px 10px;
+	width: fit-content;
+	margin: auto;
+}
+
+.colorGroup{
+	margin: 0em .5em;
+	display: flex;
+	flex-direction: column;
+	width: max-content;
+}
+
+.exitBtn{
+	width: max-content;
+	text-align: center;
+	margin: .2em auto;
+}
+
+.colorContainer{
+	margin: .5em 0em;
+	height: max-content;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */	
+}
+
+.addBtnDiv{
+	order:999;
+	height: 100%;
+}
+
+.addBtn{
+	height: 100%;
+	width: 50px;
+	border-radius: 5px;
+	border: .5px solid;
+	font-size: 1.5em;
+}
+
+.addBtn:active{
+	background-color: whitesmoke;
+}
+
+.directionGroup{
+	display: grid;
+	gap: 10px;
+	margin: 25px;
+}
+
+.randomColorGroup{
+	display: grid;
+	gap: 10px;
+	margin: 25px;
+}
