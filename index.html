@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Gradient Backgrounds</title>
+</head>
+<body id="gradient" class="container">
+	<h1>Background Generators</h1>
+
+	<div class="colorContainer" id="colorDiv">
+		<div class="colorGroup">
+			<input class="color1" type="color" name="color1" value="#00ff00" id="color01">
+			<!--<button class="exitBtn" >X</button>-->
+		</div>		
+		<div class="colorGroup">
+			<input class="color2" type="color" name="color2" value="#ff0000" id="color02">
+			<!--<button class="exitBtn" >X</button>-->
+		</div>
+		<div class="addBtnDiv">
+			<button id="addColorBtn" class="addBtn">+</button>
+		</div>
+	</div>
+
+	<div>
+		<div class="directionGroup">
+			<label for='direction'>Gradient Direction:</label>	
+			<select id="direction" name="direction" class="directionBtn">
+				<option value="to right">To Right</option>
+				<option value="to left"> To Left</option>
+				<option value="to bottom">To Bottom</option>
+				<option value='to top'>To Top</option>
+			</select>
+		</div>
+		<div class="randomColorGroup">
+			<label for='direction'>Click to Pick Random Color:</label>
+			<button class="randomButton">Random Color</button>
+		</div>
+		<div>
+			<h2>Current CSS Background</h2>
+			<h3></h3>
+		</div>		
+	</div>
+
+
+
+
+	<script type="text/javascript" src="bundle.js"></script>
+
+</body>
+</html>
